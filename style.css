@@ -1,0 +1,56 @@
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+h2 { color: white;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+.siemanko{
+    width: 800px;
+    margin: 0 auto;
+}
+body{
+    background: pink;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* odstęp między elementami */
+    padding: 20px;
+  }
+  .img-left {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 10;
+  }
+
+  /* Prawy obrazek */
+  .img-right {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 10;
+  }
